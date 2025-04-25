@@ -21,30 +21,24 @@ Planejador de cultivos e produtos artesanais para Stardew Valley, atualizado par
 - Internacionalização (pt-BR e en-US)
 - Layout responsivo e estilizado com Tailwind CSS
 
-## 🛠️ Instalação
-
-1. Clone o repositório:
-
-```bash
-git clone git@github.com:WernerLuiz92/stardew_valley-crop_planner.git
-   ```
-   
-2. Instale as dependências:
-
-```bash
-cd stardew_valley-crop_planner
-npm install
-   ```
-   
-3. Inicie o servidor de desenvolvimento:
-
-```bash
-npm run dev
-   ```
-   
 ## ✅ Checklist de Desenvolvimento
 
 Link para o checklist completo: [checklist.md](https://github.com/WernerLuiz92/stardew_valley-crop_planner/blob/main/checklist.md)
 
+## 🙏 Créditos e Inspiração
+
+Este projeto foi fortemente inspirado pelo [Stardew Valley Crop Planner original](https://github.com/exnil/crop_planner), desenvolvido por [@exnil](https://github.com/exnil) e mantido até março de 2017.
+
+A proposta original é uma base excelente, mas o repositório encontra-se desatualizado e utiliza uma stack mais antiga (JavaScript e HTML puro). Este projeto é uma reinterpretação moderna da mesma ideia, com o objetivo de:
+
+- Atualizar os dados do jogo conforme a versão 1.6
+- Modernizar a stack usando Vue 3, Vite, TypeScript e Tailwind CSS
+- Adicionar suporte a produtos artesanais
+- Implementar internacionalização
+- Aprimorar a interface e responsividade
+
+O intuito é disponibilizar uma ferramenta mais completa, útil e acessível para a comunidade, além de servir como estudo pessoal e prático de tecnologias modernas.
+
 ## 📄 Licença
-Este projeto está licenciado sob a MIT License.
+
+Este projeto está licenciado sob a [MIT License](https://github.com/WernerLuiz92/stardew_valley-crop_planner/blob/main/LICENSE).
