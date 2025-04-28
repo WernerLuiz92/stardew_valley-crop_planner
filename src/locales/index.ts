@@ -1,18 +1,17 @@
 import { createI18n } from 'vue-i18n'
+import pt from './pt'
+import en from './en'
 
-const messages = {
-  en: {
-    home: { title: 'Welcome to the Crop Planner!' }
-  },
-  pt: {
-    home: { title: 'Bem-vindo ao Planejador de Colheitas!' }
-  }
-}
+// Recupera do localStorage ou padrão 'pt'
+const savedLocale = localStorage.getItem('idioma') || 'pt'
 
 export const i18n = createI18n({
-  locale: 'pt',
+  locale: savedLocale,
   fallbackLocale: 'en',
   legacy: false,
   globalInjection: true,
-  messages
+  messages: {
+    pt,
+    en
+  }
 })
